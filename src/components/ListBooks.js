@@ -41,7 +41,7 @@ class ListBooks extends React.Component {
                             {shelves.map((shelf) => (
                                 <div key={shelf.key} className="bookshelf">
                                     <h3 className="bookshelf-title">{shelf.name}</h3>
-                                    <div className="bookshelf-books animated slideInLeft faster">
+                                    <div className="bookshelf-books">
                                         <ol className="books-grid">
                                             {getBooks(shelf.key).length === 0 ? (
                                                 <li>No books in this shelf</li>
