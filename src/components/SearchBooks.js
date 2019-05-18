@@ -20,7 +20,7 @@ class SearchBooks extends React.Component {
         this.searchQuery(query);
     };
 
-    searchQuery = (query) => {
+    searchQuery = this.debounce((query) => {
         if (query) {
             BooksAPI.search(query).then((searchResults) => {
                 if (searchResults.length > 0) {
@@ -36,7 +36,16 @@ class SearchBooks extends React.Component {
                 }
             });
         }
-    };
+    }, 900);
+
+    //debouncing function for the ajax call
+    debounce(fun, wait) {
+        let timeout;
+        return function(...args) {
+            clearInterval(timeout);
+            timeout = setTimeout(() => fun.apply(this, args), wait);
+        }
+    }
 
     clearQuery = () => {
         this.setState({
