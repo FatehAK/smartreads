@@ -11,7 +11,6 @@ View the site live - https://smartreads.netlify.com
 * Google Books API
 
 ### Features
-
 * Implemented three bookshelves 'Currently Reading', 'Want to Read' and 'Save for later'.
 * Search for particular book by author or title and add it to the shelf.
 * Optimized AJAX calls through debouncing technique.
@@ -19,7 +18,6 @@ View the site live - https://smartreads.netlify.com
 * Fully responsive to be used on mobile devices as well.
 
 ### Local Development 
-
 To get started developing right away:
 
 * Install all project dependencies with `npm install`
