@@ -1,20 +1,21 @@
 # Smartreads
 
-Smartreads is your personal and literal 'book'mark companion. Smartreads allows you to search for books and add them to your list which may be one 'Currently Reading', 'Want to Read' and 'Save for Later' so that you can keep track of your books effectively. 
+Smartreads is your personal 'book'mark companion that organizes your reading experience. Smartreads allows you to search for books and group them into individual bookshelves so that you can easily retrieve them later.
 
 View the site live - https://smartreads.netlify.com
 
 ### Tech Stack
 * React JS
-* React Router for route management
-* ECMAScript 6
+* React Router
 * Google Books API
+* Netlify for hosting
 
 ### Features
-* Implemented three bookshelves 'Currently Reading', 'Want to Read' and 'Save for later'.
-* Search for particular book by author or title and add it to the shelf.
+* Implemented bookshelves 'Currently Reading', 'Want to Read' and 'Save for later'.
+* Search for book by author or title and add it to the shelf.
 * Optimized AJAX calls through debouncing technique.
 * Ability to shift books between the shelves and update the state as necessary.
+* Preserves the state of the shelves even on page refreshes.
 * Fully responsive to be used on mobile devices as well.
 
 ### Local Development 
