@@ -2,10 +2,12 @@
   "name": "smartreads",
   "version": "0.1.5",
   "dependencies": {
-    "prop-types": "^15.7.2",
+    "animate.css": "^3.7.2",
+    "bootstrap-reboot": "^4.3.1",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "^3.0.1"
   },
   "scripts": {

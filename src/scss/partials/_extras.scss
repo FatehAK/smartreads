@@ -1,0 +1,14 @@
+/* custom scroll bar */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(48, 50, 63, 0);
+    background-color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #9244ff;
+}

@@ -1,0 +1,58 @@
+/* responsiveness */
+@media (max-width: 1300px) {
+    .list-books-content,
+    .search-books-results {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .list-books-content,
+    .search-books-results {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 736px) {
+    .list-books-content,
+    .search-books-results {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .list-books-content,
+    .search-books-results {
+        max-width: 340px;
+    }
+
+    .search-books-bar input {
+        margin: 0 40px 0 0;
+    }
+
+    .close-search {
+        margin: 0 0 0 40px;
+    }
+}
+
+@media (max-width: 350px) {
+    .list-books-content,
+    .search-books-results {
+        max-width: 300px;
+    }
+
+    .search-books-bar input {
+        margin: 0 25px 0 0;
+    }
+
+    .close-search {
+        margin: 0 0 0 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .list-books-content,
+    .search-books-results {
+        max-width: 250px;
+    }
+}

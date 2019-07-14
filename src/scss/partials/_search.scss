@@ -1,0 +1,75 @@
+/* search page */
+.search-books {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-books-bar {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-books-bar input {
+    flex: 1 1 0;
+    margin: 0 100px 0 0;
+    padding: 8px 8px;
+    font-size: 1em;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 0 0 rgba(0, 0, 0, 0.23);
+    border: none;
+    outline: none;
+}
+
+.close-search {
+    display: inline-block;
+    flex: 0 0 41px;
+    height: 41px;
+    margin: 0 0 0 100px;
+    background-image: url('../img/arrow.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-size: 16px;
+    background-color: #9244ff;
+    color: #fff;
+    font-size: 0;
+    border: none;
+    outline: none;
+}
+
+.close-search:hover {
+    background-color: #a768ff;
+}
+
+.search-books-results {
+    position: relative;
+    top: 130px;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.369);
+    border-radius: 10px;
+    background: #fff;
+}
+
+.search-terms {
+    max-width: 900px;
+    padding: 20px 20px;
+    text-align: justify;
+}
+
+.search-terms-head {
+    font-weight: 600;
+}
+
+.search-terms-content {
+    font-style: italic;
+}

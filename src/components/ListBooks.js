@@ -56,7 +56,7 @@ class ListBooks extends React.Component {
                             ))}
                         </div>
                     </div>
-                    <div className="footer">Crafted with <span>❤</span> by FatehAK</div>
+                    <div className="footer">Crafted with <span>❤</span> by Fateh</div>
                 </div>
                 <div className="open-search">
                     <Link to="/search">Add a book</Link>
