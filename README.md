@@ -1,13 +1,15 @@
 # Smartreads
 
-Smartreads is your personal 'book'mark companion that organizes your reading experience. Smartreads allows you to search for books and group them into individual bookshelves so that you can easily retrieve them later.
+Smartreads is your personal 'book'mark companion that organizes your reading experience. Smartreads allows you to search for books and group them into individual bookshelves so that you can easily retrieve them later. The app is developed with **React.js**, routes managed with **React-Router** and **SASS** for styling. It uses the **Google Books API** under the hood and **Netlify** is used for hosting. It also supports **PWA** (Progressive Web App) capabilities, so it can be easily installed on mobile devices as well.
 
-View the site live - https://smartreads.netlify.com
+View the app live - https://smartreads.netlify.com
 
 ### Tech Stack
-* React JS
-* React Router
+* React.js
+* React-Router
 * Google Books API
+* SASS
+* PWA (Progressive Web App)
 * Netlify for hosting
 
 ### Features
